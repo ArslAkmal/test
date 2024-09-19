@@ -6,7 +6,7 @@ const path=require("path");
 
 
 app.get("/test",(req,res)=>{
-    res.json({message:"Hello From Server.This is a test!"})
+    res.json({message:"Hello From Server.This is a test! This is a test 2"})
 })
 
 // Serve admin build
